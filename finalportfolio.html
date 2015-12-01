@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Holly's Portfolio</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="title-logo" src="images/logo.png" alt="Udacity logo">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="title-jumbo text-thin">Holly Wells</h1>
+                <h4>Front-end Developer</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img class="img-responsive" id="jumbotron" src="images/mainmount.jpg" alt="Main image!">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-muted">Featured Work</h2>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img class="img-responsive" id="project1img" src="images/trees.jpg" data-toggle="modal" data-target="#project1" alt="Trees Image">
+                <h3 class="text-uppercase text-center">JASPER </h3>
+                <a href="https://s-media-cache-ak0.pinimg.com/originals/3d/6f/09/3d6f09868da56787730ca6c22896e1cc.jpg">
+                    <p>https://github.com/udacity/JASPER</p>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" id="project2img" src="images/sky.jpg" data-toggle="modal" data-target="#project2" alt="Sky Image">
+                <h3 class="text-uppercase">BANFF</h3>
+                <a href="https://s-media-cache-ak0.pinimg.com/originals/a6/b2/99/a6b2994337780a7e0e999e7a9de21f45.jpg">
+                    <p>https://github.com/udacity/BANFF</p>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" id="project3img" src="images/road.jpg" data-toggle="modal" data-target="#project3" alt="Road Image">
+                <h3 class="text-uppercase">THE OPEN</h3>
+                <a href="https://s-media-cache-ak0.pinimg.com/originals/09/e2/70/09e270518f255facd7ce32d497d63f25.jpg">
+                    <p>https://github.com/udacity/THE OPEN</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">More on JASPER</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/trees.jpg" alt="Trees Image"> <p>This is where I will place information about my first project in the Udacity Front End Web Developer course. In the mean time, here is a photo I took during my road trip across British Columbia and Alberta, Canada.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabe2">More on BANFF</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/road.jpg" alt="Road Image"> <p>This is where I will place information about my second project in the Udacity Front End Web Developer course. In the mean time, here is a photo I took during my road trip across British Columbia and Alberta, Canada.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel3">More on THE OPEN ROAD</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/sky.jpg" alt="Sky Image"><p>This is where I will place information about my third project in the Udacity Front End Web Developer course. In the mean time, here is a photo I took during my road trip across British Columbia and Alberta, Canada.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
